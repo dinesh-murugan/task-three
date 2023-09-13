@@ -1,0 +1,112 @@
+.bg {
+    position: relative;
+    background-image: url("Images/hero-bg.jpg");
+    object-fit: cover;
+    height: 50rem;
+}
+
+.bg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+}
+.navbar-nav a{
+    color:antiquewhite ;
+    font-weight: 500;
+}
+.navbar-nav a:hover{
+    color:blue ;
+}
+.nav-link {
+    margin-right: 50px;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.btn
+{
+    background-color: #2c7873;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 0%;
+
+
+}
+.slick-dots li button:before {
+    color: #004445;
+    font-size: 20px;
+}
+.form-control
+{
+    padding: 1.5rem 0 ;
+}
+.input-group {
+   padding-bottom: 2rem;
+}
+.bi-arrow-left-short
+{
+    background-color: black;
+    margin-right: 10rem;
+    padding: 0.8rem;
+}
+.bi-arrow-right-short
+{
+    background-color: black;
+    margin-left: 10rem;
+    padding: 0.8rem;
+ 
+}
+.imagg 
+{
+    height: 100px;
+    width: 100px;
+}
+
+.bi-quote
+{
+    font-size:3rem;
+    color:green;
+}
+.footer
+{
+    background-color: #004445;
+    color: aliceblue
+    ;
+}
+.list-unstyled li {
+    margin-bottom: 10px;
+  }
+  .card.active {
+
+    transform: scale(1.05);
+    background-color: #004445;
+    color: white; 
+    transform: scale(1.1);
+    transform-box: 3rem;
+  }
+  .card.active img {
+    filter: invert(100%) brightness(200%); 
+  }
+  .card:not(.active) img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  }
+  .font {
+    font-size: 1.5rem;  
+    margin-left: 2rem;
+}
+.fontt
+{
+    margin-right:0.5rem;
+}
+
+
+/* 
+*{
+    outline: 2px solid red;
+}   */
+
+
